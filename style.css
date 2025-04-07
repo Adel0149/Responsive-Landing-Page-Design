@@ -1,0 +1,125 @@
+/*Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+}
+/* Header */
+header {
+    background: #004d7a;
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 1.8cm;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    color: goldenrod;
+}
+.hero h1 {
+    font-size: 2cm;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.2cm;
+    margin-bottom: 30px;
+}
+.btn {
+    background: #ff6f61;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* faetures */
+.features {
+    padding: 60px 20px;
+    text-align: center;
+    background: #fff;
+}
+.features h2 {
+    margin-bottom: 40px;
+}
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.feature {
+    flex: 1 1 250px;
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+/* Call To Action */
+.CTA {
+    background: #004d7a;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+.CTA h2 {
+    font-size: 2cm;
+    margin-bottom: 10px;
+}
+/* .CTA p {
+    font-size: 0.5cm;
+    gap: 10px;
+    vertical-align: top;
+} */
+ /* footer */
+ footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+ }
+ .footer-content p {
+    margin-bottom: 10px;
+ }
+ /* Responsive */
+ @media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .hero h1{
+        font-size: 2cm;
+    }
+    .feature-list{
+        flex-direction: column;
+        gap: 15px;
+    }
+ }
+ .CTA p {
+    margin-bottom: 20px;
+ }
